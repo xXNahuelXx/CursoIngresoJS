@@ -6,13 +6,19 @@ function MostrarAumento()
 {
 
 	var num1;
+	var num2;
+	
+	
+	num1=document.getElementById("sueldo").value;
+	num2=document.getElementById("sueldo").value;
+	
+	num1=parseInt(num1);
+	num2=parseInt(num1+((num2*10)/100));
 	
 
-    num1=document.getElementById("sueldo").value;
 
-	num1=parseInt((num1*10)/100);
-
-    document.getElementById("resultado").value=num1;
+    document.getElementById("resultado").value=num2;
 
 
 }
+
