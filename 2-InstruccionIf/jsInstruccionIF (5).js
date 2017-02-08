@@ -20,4 +20,5 @@ else
 if(!(age<18&&edad>12))
 {
 	alert("Usted no es adolescente");
+*/
 }
